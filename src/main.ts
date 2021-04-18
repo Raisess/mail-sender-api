@@ -10,12 +10,12 @@ class App {
     const app: NestApplication = await NestFactory.create(AppModule);
 
     const config: any = new DocumentBuilder()
-      .setTitle("Mail Sender API")
+      .setTitle("POIO API")
       .setDescription("An API to send e-mails.")
       .setVersion("1.0")
       .setLicense(
         "MIT",
-        "https://github.com/Raisess/mail-sender-api/blob/master/LICENSE",
+        "https://github.com/Raisess/poio/blob/master/LICENSE",
       )
       .build();
 

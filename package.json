@@ -1,10 +1,10 @@
 {
-  "name": "mail-sender-api",
+  "name": "poio",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Email sender API.",
+  "author": "Raisess",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
