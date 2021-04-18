@@ -1,6 +1,6 @@
 import { createTransport, Transporter } from "nodemailer";
 
-type Auth = {
+export type Auth = {
   user: string;
   pass: string;
 };
