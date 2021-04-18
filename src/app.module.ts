@@ -1,6 +1,6 @@
 import { Module } from "@nestjs/common";
 
-import { MailModule } from "./entities/mails/mails.module";
+import { MailModule } from "./modules/mails/mails.module";
 
 @Module({
   imports: [MailModule],
