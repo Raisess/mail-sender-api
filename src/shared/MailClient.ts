@@ -6,10 +6,10 @@ export type Auth = {
 };
 
 export default class MailClient {
-  private transport: Transporter;
-  private port: number = 587;
-  private secure: boolean = false;
+  private readonly port: number = 587;
+  private readonly secure: boolean = false;
 
+  private transport: Transporter;
   private auth: Auth;
 
   constructor(host: string, auth: Auth) {
