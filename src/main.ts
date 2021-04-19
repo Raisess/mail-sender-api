@@ -13,10 +13,8 @@ class App {
       .setTitle("POIO API")
       .setDescription("An API to send e-mails.")
       .setVersion("1.0")
-      .setLicense(
-        "MIT",
-        "https://github.com/Raisess/poio/blob/master/LICENSE",
-      )
+      .setLicense("MIT", "https://github.com/Raisess/poio/blob/master/LICENSE")
+      .addBearerAuth()
       .build();
 
     const document: OpenAPIObject = SwaggerModule.createDocument(app, config);
